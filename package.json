@@ -1,0 +1,32 @@
+{
+  "name": "ci-cd-webtask-example",
+  "version": "1.0.0",
+  "description": "Create testable function on webtask.io and then run it through ci-cd pipe with cirlceci",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint": "^4.9.0",
+    "eslint-config-standard": "^10.2.1",
+    "tape": "^4.8.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/tape *.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/websoftwares/ci-cd-webtask-example.git"
+  },
+  "keywords": [
+    "serverless",
+    "webtask",
+    "ci",
+    "cd"
+  ],
+  "author": "boris@websoftwar.es",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/websoftwares/ci-cd-webtask-example/issues"
+  },
+  "homepage": "https://github.com/websoftwares/ci-cd-webtask-example#readme"
+}
