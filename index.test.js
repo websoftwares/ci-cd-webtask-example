@@ -13,7 +13,7 @@ tape('Assert expected response matches actual response', ((t) => {
   for (let i = 0; i < names.length; i++) {
     let name = names[i] === 'Anonymous' ? null : names[i]
     contextMock.data.name = name
-    index(contextMock, cbSpy(t, { hello: names[i] }))
+    index(contextMock, cbSpy(t, { hello_you: names[i] }))
   }
 
   t.end()
