@@ -1,5 +1,6 @@
-let tape = require('tape')
-let index = require('./index')
+"use strict"
+const tape = require('tape')
+const index = require('./index')
 
 let contextMock = { data: { name: null } }
 const cbSpy = (t, expected) => (error, actual) => {
